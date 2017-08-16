@@ -14,9 +14,9 @@
  *
  * @SuppressWarnings(PHPMD)
  */
-class AcceptanceTester extends \Codeception\Actor
+class FunctionalTester extends \Codeception\Actor
 {
-    use _generated\AcceptanceTesterActions;
+    use _generated\FunctionalTesterActions;
 
     public function wantToTest($text)
     {
